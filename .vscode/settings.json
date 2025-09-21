@@ -11,7 +11,22 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "e-commerce",
-            "database": "e-commerce",
+            "username": "root",
+            "connectionTimeout": 330,
+            "database": "-"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "ecommerce_db",
+            "database": "mysql",
             "username": "root",
             "connectionTimeout": 330
         }
